@@ -4,10 +4,17 @@ body {
   
 }
 
+.box{
+ margin: auto;
+ margin-top:5%;
+ color: white;
+}
+
 h1{
   color: blue;
   text-align: center;
   padding: 10px;
+  font-size: 40px;
 }
 
 h2{
@@ -15,12 +22,47 @@ h2{
   text-align: center;
 }
 
-img{
-  display: block;
+h3{
+  color: black;
+  text-align: center;
+}
+
+.box-img{
   margin: auto;
-  border-radius: 50%;
+  border-radius: 40%;
   border:2px solid #ccc;
-  width: 200px;
-  height: 200px;
-  padding: 10px;
+  padding: 5px;
+}
+
+/* The sidebar menu*/
+.sidenav{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111; /*black*/
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
