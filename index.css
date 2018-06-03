@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
+  
+}
+
+h1{
+  color: blue;
+  text-align: center;
+  padding: 10px;
+}
+
+h2{
+  color: black;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border:2px solid #ccc;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
