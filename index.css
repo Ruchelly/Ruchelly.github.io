@@ -2,17 +2,11 @@ body {
   background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));  
 }
 
-.box{
- margin: auto;
- margin-top:15%;
- color: white;
-}
-
 h1{
   font-style: normal;
   color: blue;
   padding: 10px;
-  padding-bottom: 4px;
+  padding-bottom: 1px;
   padding-left: 40px;
   font-size: 60px;
 }
