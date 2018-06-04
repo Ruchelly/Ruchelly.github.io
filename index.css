@@ -4,7 +4,7 @@ body {
 
 .box{
  margin: auto;
- margin-top:5%;
+ margin-top:15%;
  color: white;
 }
 
@@ -13,11 +13,12 @@ h1{
   font-style: normal;
   color: blue;
   padding: 10px;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 h2{
   color: black;
+  font-size: 30px;
 }
 
 h3{
@@ -34,6 +35,7 @@ h5{
 
 .box-img{
   margin: auto;
+  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 40%;
@@ -88,7 +90,7 @@ h5{
 }
 
 .resume p{
-     font-size: 10px;
+     font-size: 20px;
 }
 
 .resume{
