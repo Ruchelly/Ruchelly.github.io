@@ -1,7 +1,5 @@
 body {
-  margin: 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
-  
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));  
 }
 
 .box{
@@ -89,6 +87,10 @@ h5{
     text-align: left;
 }
 
+.resume p{
+     font-size: 10px;
+}
+
 .resume{
     padding-left: 180px;
     padding-right: 180px;
@@ -97,16 +99,20 @@ h5{
 
 .bhcc{
     text-align: right;
+    padding: 0px;
 }
 
 .tufts{
     text-align: right;
+    padding: 0px;
 }
 
 .wayfair{
     text-align: right;
+    padding: 0px;
 }
 
 .microsoft{
     text-align: right;
+    padding: 0px;
 }
