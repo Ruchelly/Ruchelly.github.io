@@ -71,6 +71,11 @@ h5{
     .sidenav a {font-size: 18px;}
 }
 
+.resume h1{
+    padding-left: 4px;
+    font-size: 40px;
+}
+
 .resume h2{
     border-bottom: 3px solid black;
     padding: 4px;
@@ -81,10 +86,12 @@ h5{
     font-weight: bold;
     padding: 2px;
     text-align: left;
+    font-size: 20px;
 }
 
 .resume p{
      font-size: 20px;
+     padding: 0px;
 }
 
 .resume{
