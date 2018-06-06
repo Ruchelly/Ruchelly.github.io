@@ -86,6 +86,12 @@ p{
     .sidenav a {font-size: 18px;}
 }
 
+.resume{
+    padding-left: 20px;
+    padding-right: 40px;
+    text-align: left;
+}
+
 .resume h1{
     padding-left: 4px;
     font-size: 30px;
@@ -107,12 +113,7 @@ p{
 .resume p{
     padding-bottom: 0px;
     padding-top: 0px;
-}
-
-.resume{
-    padding-left: 20px;
-    padding-right: 40px;
-    text-align: left;
+    margin: 0;
 }
 
 .dates{
@@ -120,6 +121,7 @@ p{
     padding-bottom: 0px;
     padding-top: 0px;
     font-size: 20px;
+    margin: 0;
 }
 
 .bio{
@@ -144,10 +146,9 @@ p{
 
 .contact h1{
   padding-left: 50px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .contact h2{
   padding-left: 150px;
-  padding-bottom: 300px;
 }
