@@ -114,8 +114,14 @@ p{
     font-size: 20px;
 }
 
+.bio{
+  padding-left: 280px;
+  padding-right: 40px;
+  padding-bottom: 300px;
+}
+
 .bio h1, p{
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .diffsize{    
