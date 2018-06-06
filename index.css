@@ -109,6 +109,7 @@ p{
 .resume h2{
     border-bottom: 3px solid black;
     padding: 4px;
+    padding-top: 10px;
     text-align: center;
 }
 
