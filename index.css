@@ -3,16 +3,15 @@ body {
 }
 
 h1{
-  font-style: normal;
   color: blue;
-  padding: 10px;
-  padding-bottom: 1px;
-  padding-left: 40px;
+  padding-bottom: 0px;
   font-size: 60px;
 }
 
 h2{
   color: black;
+  font-weight: bold;
+  padding-top: 10px;
 }
 
 h3{
@@ -24,8 +23,16 @@ h5{
   color: black;  
 }
 
-.main h1, h2, h3, h5{
+p{
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.main h1, h3{
   text-align: center;
+  padding-left: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .box-img{
@@ -73,7 +80,7 @@ h5{
 
 .resume h1{
     padding-left: 4px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .resume h2{
@@ -86,36 +93,31 @@ h5{
     font-weight: bold;
     padding: 2px;
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .resume p{
-     font-size: 20px;
-     padding: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 .resume{
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 20px;
+    padding-right: 40px;
     text-align: left;
 }
 
-.bhcc{
+.dates{
     text-align: right;
-    padding: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 20px;
 }
 
-.tufts{
-    text-align: right;
-    padding: 0px;
+.bio h1, p{
+    padding-left: 100px;
 }
 
-.wayfair{
-    text-align: right;
-    padding: 0px;
-}
-
-.microsoft{
-    text-align: right;
-    padding: 0px;
+.diffsize{    
+    font-size: 20px;
 }
