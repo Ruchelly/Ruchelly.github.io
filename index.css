@@ -146,8 +146,11 @@ p{
     padding-left: 50px;
 }
 
-.diffsize{    
+.bio h5{   
+    color: blue; 
     font-size: 20px;
+    padding-left: 50px;
+    margin-top: 0;
 }
 
 /* Contact page */
